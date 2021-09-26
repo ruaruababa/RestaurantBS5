@@ -1,0 +1,3 @@
+.container-fluid:last-child{
+    justify-content: flex-end!important;
+}

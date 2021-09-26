@@ -1,0 +1,54 @@
+/* --pc  */
+
+@media (min-width: 1025px) {
+  .menu_bar-item {
+    display: none;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+  .menu_bar-item {
+    display: none;
+  }
+  .foodmenu-img {
+    border-radius: 50% !important;
+  }
+}
+
+/*Mobile */
+
+@media (max-width: 753px) {
+  .list {
+    display: flex;
+    right: 0;
+    top: 100px;
+    flex-direction: column;
+    position: fixed;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(73, 193, 197);
+    background-image: linear-gradient(
+      to left,
+      rgba(108, 204, 233, 0.932),
+      pink
+    );
+    border-left: 3px solid #fff;
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+  }
+  .list__item {
+    padding: 20px;
+    margin: 0 15px;
+    border-bottom: 1px dotted;
+    color: #fff !important;
+    text-align: end;
+  }
+  .nav_show:checked ~ .list {
+    clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+  }
+  .footer__text {
+    font-size: 12px;
+  }
+  .main__title {
+    font-size: 30px !important;
+  }
+}

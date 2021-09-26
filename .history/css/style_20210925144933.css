@@ -1,0 +1,4 @@
+.container-fluid:{
+    display: flex!important;
+    justify-content: end!important;
+}

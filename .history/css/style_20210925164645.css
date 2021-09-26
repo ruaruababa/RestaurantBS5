@@ -1,0 +1,16 @@
+body{
+    height: 3000px!important;
+}
+.nav-fixed{
+    background-color: white!important;
+    padding: 0 50px;
+    position: fixed;
+    width: max-content;
+}
+.navbar-collapse{
+    justify-content: end;
+}
+.nav-link-fixed{
+    text-align: center;
+    color: #f56b81!important;
+}

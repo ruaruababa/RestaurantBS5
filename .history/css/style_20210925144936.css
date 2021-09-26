@@ -1,0 +1,4 @@
+.container-fluid:last-child{
+    display: flex!important;
+    justify-content: end!important;
+}

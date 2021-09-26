@@ -1,0 +1,12 @@
+
+.nav-fixed{
+    background-color: white!important;
+    padding: 0 50px;
+}
+.navbar-collapse{
+    justify-content: end;
+}
+.nav-link-fixed{
+    text-align: center;
+    color: #f56b81!important;
+}

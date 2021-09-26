@@ -1,0 +1,7 @@
+.navbar-collapse{
+    justify-content: end;
+}
+.nav-link-fix{
+    text-align: center;
+    color: #f56b81!important;
+}
